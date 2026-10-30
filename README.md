@@ -1,4 +1,4 @@
-# Taller Patrón Proxy — Backend
+﻿# Taller Patrón Proxy — Backend
 
 Sistema de monitoreo de microservicios con **Proxy de auditoría y logging**. Un `LoggingProxy<T>` se
 coloca delante de cada microservicio (Inventario, Pedidos, Pagos) e intercepta todas las llamadas para
@@ -185,4 +185,7 @@ El repositorio incluye un `Dockerfile` multi-etapa (build con Maven, runtime con
 3. Generar dominio público y verificar `GET /actuator/health` → `UP`.
 4. Probar `POST /api/metrics/simulate-load` → `{"requested":50,...}`.
 
-URL de producción: _pendiente de configurar_.
+URL de producción: https://tallerproxy-backend-production.up.railway.app
+
+Frontend: https://tallerproxy-fronted.vercel.app
+
